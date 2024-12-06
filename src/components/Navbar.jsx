@@ -56,8 +56,8 @@ const Navbar = () => {
                         ))}
                     </ul>
                     <div className="flex space-x-6">
-                        {/* <a href="signin" className="py-2 px-3 border rounded-md">Sign In </a> */}
-                        <a href="register" className="py-2 px-3  rounded-md bg-gradient-to-r from-blue-500 to-blue-800">Create an account  </a>
+                   
+                        <a href="/register" className="py-2 px-3  rounded-md bg-gradient-to-r from-blue-500 to-blue-800">Create an account  </a>
                     </div>
                 </div>
             )
