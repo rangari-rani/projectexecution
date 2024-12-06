@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { produc } from '../constants';
-import Sidebar from './Sidebar';
+
 
 const ProductPage = () => {
     const { id } = useParams();

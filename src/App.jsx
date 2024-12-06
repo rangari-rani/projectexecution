@@ -34,17 +34,28 @@ const App = () => {
   );
 };
 
+// const styles = {
+//   appContainer: {
+//     display: "flex",
+//     flexDirection: "column",
+//     minHeight: "157vh", // Full page height
+//     boxSizing: "border-box", // Avoid layout shifts
+//   },
+//   content: {
+//     flex: "1", // Pushes the footer down
+//   },
+// };
 const styles = {
   appContainer: {
     display: "flex",
     flexDirection: "column",
-    minHeight: "157vh", // Full page height
-    boxSizing: "border-box", // Avoid layout shifts
+    minHeight: "160vh", // Ensures the container covers the full viewport height
+    boxSizing: "border-box",
   },
   content: {
-    flex: "1", // Pushes the footer down
+    flex: "1", // Pushes the footer to the bottom of the page
+    paddingBottom: "20px", // Adds spacing to prevent overlap with the footer
   },
 };
-
 
 export default App;

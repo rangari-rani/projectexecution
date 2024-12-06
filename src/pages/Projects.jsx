@@ -17,7 +17,7 @@ const Projects = () => {
           <Route path="/" element={<MainContent />} />
           <Route path="/:id" element={<ProductPage />} />
         </Routes>
-        <div>
+        <div >
           <TopSellers />
           <PopularBlogs />
         </div>
